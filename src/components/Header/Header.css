@@ -1,0 +1,36 @@
+.background {
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.background-img1 {
+  background-image: url("../../assets/slider.jpg");
+}
+.background-img2 {
+  background-image: url("../../assets/slider.jpg");
+}
+.background-img3 {
+  background-image: url("../../assets/slider.jpg");
+}
+.positioned {
+  position: absolute;
+  top: 22%;
+  left: 58%;
+}
+
+@media only screen and (max-width: 600px) {
+  .positioned {
+    position: static;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .positioned {
+    position: static;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .positioned {
+    position: static;
+  }
+}
