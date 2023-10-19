@@ -1,0 +1,29 @@
+.card-top{
+    position: relative;
+}
+.card-bottom{
+    width: 22rem;
+    position: absolute;
+    top: 68%;
+    left: 10%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card-bottom {
+      position: static;
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .card-bottom {
+      position: static;
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .card-bottom {
+      position: static;
+      width: 100%;
+    }
+  }
