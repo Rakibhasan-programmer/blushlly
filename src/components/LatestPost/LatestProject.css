@@ -1,15 +1,52 @@
-.card-top{
-    position: relative;
+.card-top {
+  position: relative;
 }
-.card-bottom{
-    width: 22rem;
-    position: absolute;
-    top: 68%;
-    left: 10%;
+.img-container {
+  position: relative;
+}
+.text-container {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 80%;
+  padding: 10px;
+  margin-top: -20%;
+  left: 10%;
+}
+.bordered-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1d1a1a;
+  font-family: Vidaloka;
+  font-size: 1.75rem;
+  font-weight: 400;
 }
 
+.border-l,
+.border-r {
+  flex: 1;
+  height: 2px;
+  background-color: #000;
+}
 
-@media only screen and (max-width: 600px) {
+.left-border {
+  margin-right: 10px;
+}
+
+.right-border {
+  margin-left: 10px;
+}
+
+.text {
+  padding: 0 10px;
+}
+@media (max-width: 767px) {
+  .text-container {
+    position: relative; /* Change to relative positioning */
+  }
+}
+
+/* @media only screen and (max-width: 600px) {
     .card-bottom {
       position: static;
       width: 100%;
@@ -26,4 +63,4 @@
       position: static;
       width: 100%;
     }
-  }
+  } */
