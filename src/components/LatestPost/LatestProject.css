@@ -40,27 +40,20 @@
 .text {
   padding: 0 10px;
 }
-@media (max-width: 767px) {
-  .text-container {
-    position: relative; /* Change to relative positioning */
-  }
+.extra-card {
+  position: relative;
+}
+.extra-text-container {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 80%;
+  padding: 10px;
+  margin-top: -12%;
+  left: 10%;
 }
 
-/* @media only screen and (max-width: 600px) {
-    .card-bottom {
-      position: static;
-      width: 100%;
-    }
+@media (max-width: 767px) {
+  .text-container, .extra-text-container {
+    position: relative;
   }
-  @media only screen and (max-width: 768px) {
-    .card-bottom {
-      position: static;
-      width: 100%;
-    }
-  }
-  @media only screen and (max-width: 768px) {
-    .card-bottom {
-      position: static;
-      width: 100%;
-    }
-  } */
+}

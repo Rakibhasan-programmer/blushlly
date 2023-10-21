@@ -22,7 +22,7 @@ const LatestPost = () => {
             <div>
               <p className="text-center">HAIR</p>
               <h3>Vivamus placerat Luctus Neque nec Faucibus</h3>
-              <p>By Sarfraz Jasim 29 July, 2023</p>
+              <p className="fw-light">By Sarfraz Jasim 29 July, 2023</p>
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ const LatestPost = () => {
             <div>
               <p className="text-center">MAKE UP</p>
               <h3>Vivamus placerat Luctus Neque nec Faucibus</h3>
-              <p>By Sarfraz Jasim 29 July, 2023</p>
+              <p className="fw-light">By Sarfraz Jasim 29 July, 2023</p>
             </div>
           </div>
         </div>
@@ -46,14 +46,31 @@ const LatestPost = () => {
             <div>
               <p className="text-center">TIPS</p>
               <h3>Vivamus placerat Luctus Neque nec Faucibus</h3>
-              <p>By Sarfraz Jasim 29 July, 2023</p>
+              <p className="fw-light">By Sarfraz Jasim 29 July, 2023</p>
             </div>
           </div>
         </div>
       </div>
-      <div className="row pt-lg-5 mt-lg-5">
-        <div>
-          <img src={latest4} className="img-fluid" alt="" />
+      <div className="row pt-lg-5 mt-lg-5 extra-card">
+        <div className="pt-lg-5">
+          <img src={latest4} className="img-fluid w-100" alt="" />
+        </div>
+        <div className="text-center">
+          <div className="border px-5 pt-5 pb-2 bg-white extra-text-container">
+            <div>
+              <p>SKIN</p>
+              <h3 className="lh-base fs-2">
+                Sed dignissim quam nulla, at sodales elit <br /> venenatis at.
+                In in fringilla
+              </h3>
+              <p className="py-2">
+                Donec eget leo laoreet, faucibus ante et, finibus orci. Nam
+                pulvinar felis vel mi aliquam, vitae dapibus odio euismod. Cras
+                bibendum nisi a interdum facilisis…..
+              </p>
+              <p className="fw-light">By Sarfraz Jasim - 29 July, 2023</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
