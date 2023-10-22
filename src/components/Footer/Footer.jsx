@@ -1,13 +1,13 @@
 import React from "react";
-import footer1 from "../../assets/footer/footer (1).jpg";
-import footer2 from "../../assets/footer/footer (2).jpg";
-import footer3 from "../../assets/footer/footer (3).jpg";
-import footer4 from "../../assets/footer/footer (4).jpg";
-import footer5 from "../../assets/footer/footer (5).jpg";
-import footer6 from "../../assets/footer/footer (6).jpg";
-import footer7 from "../../assets/footer/footer (7).jpg";
-import footer8 from "../../assets/footer/footer (8).jpg";
-import footer9 from "../../assets/footer/footer (9).jpg";
+import footer1 from "../../assets/footer (1).jpg";
+import footer2 from "../../assets/footer (2).jpg";
+import footer3 from "../../assets/footer (3).jpg";
+import footer4 from "../../assets/footer (4).jpg";
+import footer5 from "../../assets/footer (5).jpg";
+import footer6 from "../../assets/footer (6).jpg";
+import footer7 from "../../assets/footer (7).jpg";
+import footer8 from "../../assets/footer (8).jpg";
+import footer9 from "../../assets/footer (9).jpg";
 
 const Footer = () => {
   return (

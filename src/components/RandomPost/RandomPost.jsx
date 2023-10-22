@@ -4,12 +4,12 @@ import "./RandomPostCard.css"
 
 function RandomPostCard({ index, post }) {
   const marginStyle =
-    index % 2 == 0 ? { marginRight: "-9rem" } : { marginLeft: "-9rem" };
+    index % 2 == 0 ? { marginLeft: "-9rem" } : { marginRight: "-9rem" };
 
   return (
     <div className="d-lg-flex align-items-center post-card">
       <img
-        className={`img-fluid w-100 ${index % 2 == 0 ? "order-1" : "order-0"}`}
+        className={`img-fluid w-100 ${index % 2 == 0 ? "order-0" : "order-1"}`}
         src={post.image}
         alt={post.title}
       />

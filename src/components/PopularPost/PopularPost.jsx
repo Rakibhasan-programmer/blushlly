@@ -9,7 +9,7 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 
 const PopularPost = () => {
   return (
-    <div className="pb-lg-5">
+    <div className="pb-lg-5 my-5">
       <div className="container pb-5 mb-lg-5">
         <SectionTitle title="Popular Post" />
         <div className="row g-4 py-5">
@@ -19,7 +19,7 @@ const PopularPost = () => {
             </div>
             <div className="border py-3 px-5 text-container bg-white">
               <div>
-                <p className="text-center">HAIR</p>
+                <p className="text-center underline-with-space">HAIR</p>
                 <h3 className="font-vidaloka">Vivamus placerat Luctus Neque nec Faucibus</h3>
                 <p className="fw-light">By Sarfraz Jasim 29 July, 2023</p>
               </div>
@@ -31,7 +31,7 @@ const PopularPost = () => {
             </div>
             <div className="border py-3 px-5 text-container bg-white">
               <div>
-                <p className="text-center">MAKE UP</p>
+                <p className="text-center underline-with-space">MAKE UP</p>
                 <h3 className="font-vidaloka">Vivamus placerat Luctus Neque nec Faucibus</h3>
                 <p className="fw-light">By Sarfraz Jasim 29 July, 2023</p>
               </div>
@@ -43,7 +43,7 @@ const PopularPost = () => {
             </div>
             <div className="border py-3 px-5 text-container bg-white">
               <div>
-                <p className="text-center">TIPS</p>
+                <p className="text-center underline-with-space">TIPS</p>
                 <h3 className="font-vidaloka">Vivamus placerat Luctus Neque nec Faucibus</h3>
                 <p className="fw-light">By Sarfraz Jasim 29 July, 2023</p>
               </div>
@@ -56,12 +56,12 @@ const PopularPost = () => {
               <img src={image5} className="img-fluid w-100" alt="" />
             </div>
             <div className="border extra-text-container bg-white py-3 px-4">
-              <p>SKIN</p>
-              <h3 className="fs-2">
+              <p className="underline-with-space">SKIN</p>
+              <h3 className="fs-2 font-vidaloka py-2">
                 Vivamus placerat Luctus Neque nec Faucibus Vivamus ultricies
                 arcu Vivamus
               </h3>
-              <p className="fw-light pt-2">By Sarfraz Jasim - 29 July, 2023</p>
+              <p className="fw-light">By Sarfraz Jasim - 29 July, 2023</p>
             </div>
           </div>
           <div className="col-lg-6 mt-lg-4 extra-card">
@@ -69,12 +69,12 @@ const PopularPost = () => {
               <img src={image6} className="img-fluid w-100" alt="" />
             </div>
             <div className="border extra-text-container bg-white py-3 px-4">
-              <p>SKIN</p>
-              <h3 className="fs-2">
+              <p className="underline-with-space">TIPS</p>
+              <h3 className="fs-2 font-vidaloka py-2">
                 Vivamus placerat Luctus Neque nec Faucibus Vivamus ultricies
                 arcu Vivamus
               </h3>
-              <p className="fw-light pt-2">By Sarfraz Jasim - 29 July, 2023</p>
+              <p className="fw-light">By Sarfraz Jasim - 29 July, 2023</p>
             </div>
           </div>
         </div>

@@ -20,7 +20,7 @@ const LatestPost = () => {
           </div>
           <div className="border py-3 px-5 text-container bg-white">
             <div>
-              <p className="text-center">HAIR</p>
+              <p className="text-center underline-with-space">HAIR</p>
               <h3 className="font-vidaloka">Vivamus placerat Luctus Neque nec Faucibus</h3>
               <p className="fw-light">By Sarfraz Jasim 29 July, 2023</p>
             </div>
@@ -32,7 +32,7 @@ const LatestPost = () => {
           </div>
           <div className="border py-3 px-5 text-container bg-white">
             <div>
-              <p className="text-center">MAKE UP</p>
+              <p className="text-center underline-with-space">MAKE UP</p>
               <h3 className="font-vidaloka">Vivamus placerat Luctus Neque nec Faucibus</h3>
               <p className="fw-light">By Sarfraz Jasim 29 July, 2023</p>
             </div>
@@ -44,7 +44,7 @@ const LatestPost = () => {
           </div>
           <div className="border py-3 px-5 text-container bg-white">
             <div>
-              <p className="text-center">TIPS</p>
+              <p className="text-center underline-with-space">TIPS</p>
               <h3 className="font-vidaloka">Vivamus placerat Luctus Neque nec Faucibus</h3>
               <p className="fw-light">By Sarfraz Jasim 29 July, 2023</p>
             </div>
@@ -58,12 +58,12 @@ const LatestPost = () => {
         <div className="text-center">
           <div className="border px-5 pt-5 pb-2 bg-white extra-text-container">
             <div>
-              <p>SKIN</p>
-              <h3 className="lh-base fs-2">
+              <p className="underline-with-space">SKIN</p>
+              <h3 className="lh-base fs-2 font-vidaloka">
                 Sed dignissim quam nulla, at sodales elit <br /> venenatis at.
                 In in fringilla
               </h3>
-              <p className="py-2">
+              <p className="py-2 w-75 mx-auto">
                 Donec eget leo laoreet, faucibus ante et, finibus orci. Nam
                 pulvinar felis vel mi aliquam, vitae dapibus odio euismod. Cras
                 bibendum nisi a interdum facilisis…..

@@ -22,7 +22,7 @@ const NavigationBar = () => {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-medium">
               <li class="nav-item ps-lg-2">
                 <a class="nav-link active" aria-current="page" href="#">
                   Home
