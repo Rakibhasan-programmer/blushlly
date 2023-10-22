@@ -17,7 +17,7 @@ function RandomPostCard({ index, post }) {
         className="w-80 p-5 bg-white border border-1 border-dark z-1 post-content"
         style={marginStyle}
       >
-        <p className="text-uppercase" style={{ textDecoration: "underline" }}>
+        <p className="text-uppercase underline-with-space">
           {post.tag}
         </p>
         <h4 className="fs-2 font-vidaloka">

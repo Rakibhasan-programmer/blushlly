@@ -10,7 +10,7 @@ import linkedin from "../../assets/linkedin.png";
 
 const RandomSection = () => {
   return (
-    <div className="container-fluid mt-lg-5 bg-color pt-3 pb-5 my-5">
+    <div className="container-fluid mt-lg-5 bg-color pt-3 pb-5 mt-5">
       <div className="divide w-75 mx-auto">
         <div className="mt-lg-5">
           <img src={image} className="img-size" alt="" />

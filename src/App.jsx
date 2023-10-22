@@ -1,5 +1,6 @@
 import "./App.css";
 import Add1 from "./components/Add1/Add1";
+import Add2 from "./components/Add2/Add2";
 import Categories from "./components/Categories/Categories";
 import Feed from "./components/Feed/Feed";
 import Footer from "./components/Footer/Footer";
@@ -21,6 +22,7 @@ function App() {
       <Add1 />
       <PopularPost />
       <RandomSection />
+      <Add2 />
       <RandomPost />
       <Feed />
       <Subscribe />
