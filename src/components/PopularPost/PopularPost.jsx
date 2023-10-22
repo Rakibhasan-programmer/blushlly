@@ -17,7 +17,7 @@ const PopularPost = () => {
             <div className="img-container">
               <img src={image1} className="img-fluid card-img" alt="" />
             </div>
-            <div className="border py-3 px-5 text-container bg-white">
+            <div className="border border-1 border-dark py-3 px-5 text-container bg-white">
               <div>
                 <p className="text-center underline-with-space">HAIR</p>
                 <h3 className="font-vidaloka">Vivamus placerat Luctus Neque nec Faucibus</h3>
@@ -29,7 +29,7 @@ const PopularPost = () => {
             <div className="img-container">
               <img src={image2} className="img-fluid card-img" alt="" />
             </div>
-            <div className="border py-3 px-5 text-container bg-white">
+            <div className="border border-1 border-dark py-3 px-5 text-container bg-white">
               <div>
                 <p className="text-center underline-with-space">MAKE UP</p>
                 <h3 className="font-vidaloka">Vivamus placerat Luctus Neque nec Faucibus</h3>
@@ -41,7 +41,7 @@ const PopularPost = () => {
             <div className="img-container">
               <img src={image3} className="img-fluid card-img" alt="" />
             </div>
-            <div className="border py-3 px-5 text-container bg-white">
+            <div className="border border-1 border-dark py-3 px-5 text-container bg-white">
               <div>
                 <p className="text-center underline-with-space">TIPS</p>
                 <h3 className="font-vidaloka">Vivamus placerat Luctus Neque nec Faucibus</h3>
@@ -55,7 +55,7 @@ const PopularPost = () => {
             <div>
               <img src={image5} className="img-fluid w-100" alt="" />
             </div>
-            <div className="border extra-text-container bg-white py-3 px-4">
+            <div className="border border-1 border-dark extra-text-container bg-white py-3 px-4">
               <p className="underline-with-space">SKIN</p>
               <h3 className="fs-2 font-vidaloka py-2">
                 Vivamus placerat Luctus Neque nec Faucibus Vivamus ultricies
@@ -68,7 +68,7 @@ const PopularPost = () => {
             <div>
               <img src={image6} className="img-fluid w-100" alt="" />
             </div>
-            <div className="border extra-text-container bg-white py-3 px-4">
+            <div className="border border-1 border-dark extra-text-container bg-white py-3 px-4">
               <p className="underline-with-space">TIPS</p>
               <h3 className="fs-2 font-vidaloka py-2">
                 Vivamus placerat Luctus Neque nec Faucibus Vivamus ultricies

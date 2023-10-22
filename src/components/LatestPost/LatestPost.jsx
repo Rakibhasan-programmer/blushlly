@@ -18,7 +18,7 @@ const LatestPost = () => {
           <div className="img-container">
             <img src={latest1} className="img-fluid card-img" alt="" />
           </div>
-          <div className="border py-3 px-5 text-container bg-white">
+          <div className="border border-1 border-dark py-3 px-5 text-container bg-white">
             <div>
               <p className="text-center underline-with-space">HAIR</p>
               <h3 className="font-vidaloka">Vivamus placerat Luctus Neque nec Faucibus</h3>
@@ -30,7 +30,7 @@ const LatestPost = () => {
           <div className="img-container">
             <img src={latest2} className="img-fluid card-img" alt="" />
           </div>
-          <div className="border py-3 px-5 text-container bg-white">
+          <div className="border border-1 border-dark py-3 px-5 text-container bg-white">
             <div>
               <p className="text-center underline-with-space">MAKE UP</p>
               <h3 className="font-vidaloka">Vivamus placerat Luctus Neque nec Faucibus</h3>
@@ -42,7 +42,7 @@ const LatestPost = () => {
           <div className="img-container">
             <img src={latest3} className="img-fluid card-img" alt="" />
           </div>
-          <div className="border py-3 px-5 text-container bg-white">
+          <div className="border border-1 border-dark py-3 px-5 text-container bg-white">
             <div>
               <p className="text-center underline-with-space">TIPS</p>
               <h3 className="font-vidaloka">Vivamus placerat Luctus Neque nec Faucibus</h3>
@@ -56,7 +56,7 @@ const LatestPost = () => {
           <img src={latest4} className="img-fluid w-100" alt="" />
         </div>
         <div className="text-center">
-          <div className="border px-5 pt-5 pb-2 bg-white extra-text-container">
+          <div className="border border-1 border-dark px-5 pt-5 pb-2 bg-white extra-text-container">
             <div>
               <p className="underline-with-space">SKIN</p>
               <h3 className="lh-base fs-2 font-vidaloka">
