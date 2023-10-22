@@ -20,7 +20,7 @@ const PopularPost = () => {
             <div className="border py-3 px-5 text-container bg-white">
               <div>
                 <p className="text-center">HAIR</p>
-                <h3>Vivamus placerat Luctus Neque nec Faucibus</h3>
+                <h3 className="font-vidaloka">Vivamus placerat Luctus Neque nec Faucibus</h3>
                 <p className="fw-light">By Sarfraz Jasim 29 July, 2023</p>
               </div>
             </div>
@@ -32,7 +32,7 @@ const PopularPost = () => {
             <div className="border py-3 px-5 text-container bg-white">
               <div>
                 <p className="text-center">MAKE UP</p>
-                <h3>Vivamus placerat Luctus Neque nec Faucibus</h3>
+                <h3 className="font-vidaloka">Vivamus placerat Luctus Neque nec Faucibus</h3>
                 <p className="fw-light">By Sarfraz Jasim 29 July, 2023</p>
               </div>
             </div>
@@ -44,7 +44,7 @@ const PopularPost = () => {
             <div className="border py-3 px-5 text-container bg-white">
               <div>
                 <p className="text-center">TIPS</p>
-                <h3>Vivamus placerat Luctus Neque nec Faucibus</h3>
+                <h3 className="font-vidaloka">Vivamus placerat Luctus Neque nec Faucibus</h3>
                 <p className="fw-light">By Sarfraz Jasim 29 July, 2023</p>
               </div>
             </div>
