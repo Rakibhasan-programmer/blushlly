@@ -5,16 +5,13 @@ import image3 from "../../assets/popular3.png";
 import image5 from "../../assets/popular5.png";
 import image6 from "../../assets/popular6.png";
 import "./PopularPost.css";
+import SectionTitle from "../SectionTitle/SectionTitle";
 
 const PopularPost = () => {
   return (
-    <>
-      <div className="container pb-5">
-        <div class="bordered-text">
-          <div class="border-l left-border"></div>
-          <div class="text">Popular Post</div>
-          <div class="border-r right-border"></div>
-        </div>
+    <div className="pb-lg-5">
+      <div className="container pb-5 mb-lg-5">
+        <SectionTitle title="Popular Post" />
         <div className="row g-4 py-5">
           <div className="col-lg-4 card-top text-center">
             <div className="img-container">
@@ -60,11 +57,11 @@ const PopularPost = () => {
             </div>
             <div className="border extra-text-container bg-white py-3 px-4">
               <p>SKIN</p>
-              <h3 className="lh-base fs-2">
+              <h3 className="fs-2">
                 Vivamus placerat Luctus Neque nec Faucibus Vivamus ultricies
                 arcu Vivamus
               </h3>
-              <p className="fw-light">By Sarfraz Jasim - 29 July, 2023</p>
+              <p className="fw-light pt-2">By Sarfraz Jasim - 29 July, 2023</p>
             </div>
           </div>
           <div className="col-lg-6 mt-lg-4 extra-card">
@@ -73,16 +70,16 @@ const PopularPost = () => {
             </div>
             <div className="border extra-text-container bg-white py-3 px-4">
               <p>SKIN</p>
-              <h3 className="lh-base fs-2">
+              <h3 className="fs-2">
                 Vivamus placerat Luctus Neque nec Faucibus Vivamus ultricies
                 arcu Vivamus
               </h3>
-              <p className="fw-light">By Sarfraz Jasim - 29 July, 2023</p>
+              <p className="fw-light pt-2">By Sarfraz Jasim - 29 July, 2023</p>
             </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
